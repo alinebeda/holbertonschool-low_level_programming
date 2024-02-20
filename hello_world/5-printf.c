@@ -6,6 +6,8 @@
  */
 int main(void)
 {
-printf("but the outcome is a piece of art,\n", "with proper grammar");
+printf("You are not allowed to use the function puts,\n");
+printf("but the outcome is a piece of art,\n");
+printf("followed by a new line.\n");
 return (0);
 }
