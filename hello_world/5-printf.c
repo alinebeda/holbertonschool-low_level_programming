@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,8 +7,7 @@
  */
 int main(void)
 {
-printf("You are not allowed to use the function puts,\n");
-printf("but the outcome is a piece of art,\n");
-printf("followed by a new line.\n");
+printf("with proper grammar, but the outcome is a piece of art,\n");
+
 return (0);
 }
