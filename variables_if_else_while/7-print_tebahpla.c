@@ -2,17 +2,19 @@
 
 /**
  * main - Entry point
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int digit;
+	char letter = 'z';
 
-	for (digit = 0; digit < 10; digit++)
+	while (letter >= 'a')
 	{
-		putchar(digit + '0');
+		putchar(letter);
+		letter--;
 	}
+
 	putchar('\n');
 
 	return (0);
