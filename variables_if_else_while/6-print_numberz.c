@@ -5,14 +5,16 @@
  * Return Always 0 (Success)
  */
 
+
 int main(void)
 {
-	int d;
+	int digit;
 
-	for (d = '0' d <= '9'; d++)
-		putchar(d);
+	for (digit = 0; digit < 10; digit++)
+	{
+		putchar(digit + '0');
+	}
 	putchar('\n');
-
 	return (0);
 }
 
