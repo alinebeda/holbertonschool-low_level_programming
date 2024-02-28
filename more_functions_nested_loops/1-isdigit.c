@@ -1,7 +1,17 @@
+#include "main.h"
+#include <stdioc.h>
 #include <ctype.h>
 
 int _isdigit(int c)
 {
-    return isdigit(c) ? (1) : (0);
+	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
+
 
