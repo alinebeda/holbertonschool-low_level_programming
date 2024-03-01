@@ -4,37 +4,22 @@
 /**
  *print_diagonal - a function that draws a diagonal.
  *@n: la longueur de la ligne
- *
- *@return 0 on successful execution
  */
 
 void print_diagonal(int n)
 
 {
-	char line;
+	int i, j;
 
-	if (n <= 0)
+	for (i = 0; i < n; i++)
 	{
-		_putchar('\n');
-		return;
-	}
-
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < i; j++)
-		{
-			_putchar(' ');
-		}
 		_putchar('\\');
 		_putchar('\n');
 	}
-}
-
-int main(void)
-{
-	int n = 5;
-
+	for (j = 0; j < i; j++)
+	{
+		_putchar(' ');
+	}
 	print_diagonal(5);
 	return (0);
 }
-
